@@ -1,0 +1,32 @@
+<ROMOTOOL>
+	<ComboBox Class="List" Identifier="ParsingFunctionList" Id="1">
+		<Item Class="MenuItem" Identifier="Item1" ItemName="单个节点翻译" Type="3" Enable="true">
+			单个节点(目前有2种Mode)：
+			Mode1：
+			  在Path处输入GMF XML的相关路径，
+			  在Note处输入想要处理的节点号
+			  点击处理按钮后，结果将显示在Result处
+			Mode2：
+			  Path处保持空白，
+			  在Note处输入想要翻译的文本ID
+			  点击处理按钮后，结果将显示在Result处
+		</Item>
+		<Item Class="MenuItem" Identifier="Item2" ItemName="提取界面文本" Type="1" Enable="false">
+			提取界面文本
+			  在Path处输入GMF XML的相关路径，
+			  在Note处输入想要处理的节点号
+			  点击处理按钮后，结果将显示在Result处
+		</Item>
+		<Item Class="MenuItem" Identifier="Item3" ItemName="解析sgs文件" Type="1" Enable="true">
+			解析sgs文件
+		</Item>
+		<Item Class="MenuItem" Identifier="Item_End" ItemName="临时功能处理" Type="3" Enable="true">
+			处理临时添加的功能
+		</Item>
+	</ComboBox>
+
+	<ComboBox Class="List" Identifier="ParsingModeList" Id="2">
+		<Item Class="MenuItem" Identifier="Item3" ItemName="DAS" Enable="true"></Item>
+		<Item Class="MenuItem" Identifier="Item3" ItemName="ODX" Enable="true"></Item>
+	</ComboBox>
+</ROMOTOOL>
